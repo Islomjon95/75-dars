@@ -41,4 +41,16 @@
 // number(45, 54, 21, 12)
 
 
+// ________________________________________
+// includes
+
+// const arr = [21, 45, 897, 54, 98, 100, 12]
+
+// console.log(arr.includes(100))
+
+const group8 = ["Aziz", "Bahodir", "Jahongir", "Farrux", "Behruz", "Shaxnoza", "Odina", "Diyorbek", "Javohir"]
+
+const name = "Odina"
+
+group8.includes(name) ? console.log(`${name} bugun darsga qatnashdi`) : console.log(`${name} bugun darsga qatnashmadi`)
 
